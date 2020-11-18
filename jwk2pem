@@ -1,0 +1,5 @@
+#!/bin/sh
+
+DIR=$(realpath -e "$0")
+DIR=$(dirname "$DIR")
+node "$DIR/jwk2pem.js"
